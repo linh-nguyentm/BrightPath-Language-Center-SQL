@@ -26,6 +26,65 @@ dashboard layer.
 
 ## Data model
 
+```mermaid
+erDiagram
+    STUDENTS ||--o{ ENROLLMENTS : "enrolls in"
+    COURSES  ||--o{ ENROLLMENTS : "offered as"
+    ENROLLMENTS ||--o{ PAYMENTS : "paid via"
+
+    STUDENTS {
+        int student_id PK
+        date signup_date
+        string acquisition_channel
+        string ward
+    }
+    COURSES {
+        int course_id PK
+        string course_name
+        string language
+        string level
+        string format
+        int duration_weeks
+        int price_vnd
+    }
+    ENROLLMENTS {
+        int enrollment_id PK
+        int student_id FK
+        int course_id FK
+        date enroll_date
+        string status
+        int drop_week
+    }
+    PAYMENTS {
+        int payment_id PK
+        int enrollment_id FK
+        date payment_date
+        int amount_vnd
+        string method
+    }
+    MARKETING_SPEND {
+        int spend_id PK
+        string month
+        string channel
+        int amount_vnd
+        int leads_generated
+    }
+    EXPENSES {
+        int expense_id PK
+        date expense_date
+        string category
+        int amount_vnd
+        string note
+    }
+```
+
+`marketing_spend` and `expenses` have no foreign keys to the other tables —
+they're standalone monthly fact tables, joined to the rest only logically
+(by `month` string, or by matching `acquisition_channel` = `channel` in
+query 3). That's a deliberate, realistic constraint: a real business's
+marketing spend and rent/salary ledger usually live in a separate system
+from the student database, with no shared key, only a shared calendar.
+
 SQLite, 6 tables, star-schema-ish:
 
 ```
