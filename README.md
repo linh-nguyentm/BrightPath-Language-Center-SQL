@@ -63,11 +63,26 @@ question:
 
 ## Reproduce it
 
+**SQLite** (no setup needed):
+
 ```bash
 pip install -r requirements.txt
 python src/generate_data.py     # writes brightpath.db
 python src/run_analysis.py      # runs sql/*.sql, writes results/ and images/
 ```
+
+**MySQL** (same data, for practicing with a real client like MySQL Workbench):
+
+```bash
+./start_mysql.sh                       # starts a local MySQL server on port 3307
+python src/generate_data_mysql.py      # loads the same rows into database `brightpath`
+./start_mysql.sh stop                  # when done
+```
+
+Both loaders import the exact same row-building logic from `src/dataset.py`,
+so the SQLite and MySQL copies always hold identical data — only the
+destination differs. Connect Workbench to `127.0.0.1:3307`, user
+`brightpath_app` / password `BrightPath2026!`, schema `brightpath`.
 
 `results/*.csv` holds each query's output; `results/powerbi_*.csv` is a flat
 export of every table (Power BI-ready); `images/` holds the charts;
@@ -100,12 +115,19 @@ level had the sharpest dropout curve.
 ```text
 BrightPath-Language-Center-SQL/
 ├── src/
-│   ├── generate_data.py      # builds the synthetic dataset -> brightpath.db
-│   └── run_analysis.py       # runs sql/*.sql, exports results/ and images/
-├── sql/                      # one .sql file per business question
-├── results/                  # CSV outputs + INSIGHTS.md (auto-generated)
-├── images/                   # charts (auto-generated)
-├── brightpath.db             # SQLite database (synthetic data, safe to share)
+│   ├── dataset.py             # shared synthetic-data builder (pure Python, no DB)
+│   ├── generate_data.py       # loads dataset.py's rows into SQLite -> brightpath.db
+│   ├── generate_data_mysql.py # loads the same rows into a local MySQL database
+│   └── run_analysis.py        # runs sql/*.sql (against SQLite), exports results/ and images/
+├── sql/                       # one .sql file per business question
+├── results/                   # CSV outputs + INSIGHTS.md (auto-generated)
+├── images/                    # charts (auto-generated)
+├── brightpath.db              # SQLite database (synthetic data, safe to share)
+├── start_mysql.sh             # dev convenience: start/stop a local MySQL server
 ├── requirements.txt
 └── README.md
 ```
+
+`.mysql-data/` (the local MySQL server's data directory) is git-ignored —
+it's a throwaway local dev database, not something to publish; anyone can
+recreate it with `./start_mysql.sh` + `generate_data_mysql.py`.
