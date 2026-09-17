@@ -1,0 +1,5 @@
+level,enrollments,dropped,dropout_pct,avg_week_dropped
+Beginner,188,40,21.3,5.3
+Intermediate,166,19,11.4,6.8
+Mixed,87,8,9.2,3.9
+Advanced,269,21,7.8,4.8

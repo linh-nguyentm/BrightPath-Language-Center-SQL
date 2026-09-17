@@ -1,0 +1,79 @@
+expense_id,expense_date,category,amount_vnd,note
+1,2023-01-05,Rent,18596832,
+2,2023-01-05,Salaries,22649235,
+3,2023-01-05,Utilities,3520529,
+4,2023-01-05,Materials,2037931,
+5,2023-01-05,Marketing,2810000,Sum of channel spend
+6,2023-01-28,Teacher Fees,2764415,Scales with enrollments
+7,2023-02-05,Rent,18622926,
+8,2023-02-05,Salaries,22467604,
+9,2023-02-05,Utilities,3570793,
+10,2023-02-05,Materials,2060516,
+11,2023-02-05,Marketing,1555000,Sum of channel spend
+12,2023-02-28,Teacher Fees,4091232,Scales with enrollments
+13,2023-03-05,Rent,18748856,
+14,2023-03-05,Salaries,21156444,
+15,2023-03-05,Utilities,3370931,
+16,2023-03-05,Materials,1903476,
+17,2023-03-05,Marketing,3470000,Sum of channel spend
+18,2023-03-28,Teacher Fees,7437154,Scales with enrollments
+19,2023-04-05,Rent,18343891,
+20,2023-04-05,Salaries,21205831,
+21,2023-04-05,Utilities,3479678,
+22,2023-04-05,Materials,2097516,
+23,2023-04-05,Marketing,3735000,Sum of channel spend
+24,2023-04-28,Teacher Fees,10970497,Scales with enrollments
+25,2023-05-05,Rent,18846201,
+26,2023-05-05,Salaries,21278856,
+27,2023-05-05,Utilities,3431639,
+28,2023-05-05,Materials,2048892,
+29,2023-05-05,Marketing,4575000,Sum of channel spend
+30,2023-05-28,Teacher Fees,14830315,Scales with enrollments
+31,2023-06-05,Rent,17331686,
+32,2023-06-05,Salaries,22427337,
+33,2023-06-05,Utilities,3565817,
+34,2023-06-05,Materials,1961486,
+35,2023-06-05,Marketing,3025000,Sum of channel spend
+36,2023-06-28,Teacher Fees,18123468,Scales with enrollments
+37,2023-07-05,Rent,18865997,
+38,2023-07-05,Salaries,21834571,
+39,2023-07-05,Utilities,3592058,
+40,2023-07-05,Materials,1922344,
+41,2023-07-05,Marketing,2245000,Sum of channel spend
+42,2023-07-28,Teacher Fees,19326935,Scales with enrollments
+43,2023-08-05,Rent,17971659,
+44,2023-08-05,Salaries,21848744,
+45,2023-08-05,Utilities,3393723,
+46,2023-08-05,Materials,1906559,
+47,2023-08-05,Marketing,5125000,Sum of channel spend
+48,2023-08-28,Teacher Fees,26965056,Scales with enrollments
+49,2023-09-05,Rent,18167717,
+50,2023-09-05,Salaries,21931981,
+51,2023-09-05,Utilities,3642985,
+52,2023-09-05,Materials,1908656,
+53,2023-09-05,Marketing,4980000,Sum of channel spend
+54,2023-09-28,Teacher Fees,29837427,Scales with enrollments
+55,2023-10-05,Rent,17118490,
+56,2023-10-05,Salaries,21112308,
+57,2023-10-05,Utilities,3368328,
+58,2023-10-05,Materials,2020358,
+59,2023-10-05,Marketing,4435000,Sum of channel spend
+60,2023-10-28,Teacher Fees,36111806,Scales with enrollments
+61,2023-11-05,Rent,17460044,
+62,2023-11-05,Salaries,22375321,
+63,2023-11-05,Utilities,3335241,
+64,2023-11-05,Materials,1929111,
+65,2023-11-05,Marketing,3990000,Sum of channel spend
+66,2023-11-28,Teacher Fees,40988545,Scales with enrollments
+67,2023-12-05,Rent,17599276,
+68,2023-12-05,Salaries,22175453,
+69,2023-12-05,Utilities,3448271,
+70,2023-12-05,Materials,2071028,
+71,2023-12-05,Marketing,4350000,Sum of channel spend
+72,2023-12-28,Teacher Fees,46201738,Scales with enrollments
+73,2024-01-05,Rent,18203322,
+74,2024-01-05,Salaries,22010800,
+75,2024-01-05,Utilities,3348918,
+76,2024-01-05,Materials,2063917,
+77,2024-01-05,Marketing,2945000,Sum of channel spend
+78,2024-01-28,Teacher Fees,48579742,Scales with enrollments

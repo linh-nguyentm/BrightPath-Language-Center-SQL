@@ -1,0 +1,621 @@
+student_id,signup_date,acquisition_channel,ward
+1,2023-01-26,Facebook Ads,Ward D
+2,2023-01-20,Facebook Ads,Ward A
+3,2023-01-13,Facebook Ads,Ward D
+4,2023-01-20,Facebook Ads,Ward D
+5,2023-01-17,Facebook Ads,Ward C
+6,2023-01-18,Facebook Ads,Ward A
+7,2023-01-22,Facebook Ads,Ward A
+8,2023-01-22,Facebook Ads,Ward E
+9,2023-01-25,Facebook Ads,Ward C
+10,2023-01-11,Google Ads,Ward A
+11,2023-01-10,Google Ads,Ward D
+12,2023-01-06,Google Ads,Ward D
+13,2023-01-01,Google Ads,Ward C
+14,2023-01-17,Google Ads,Ward B
+15,2023-01-17,Google Ads,Ward A
+16,2023-01-10,Referral,Ward E
+17,2023-01-20,Referral,Ward B
+18,2023-01-05,Referral,Ward C
+19,2023-01-25,Referral,Ward B
+20,2023-01-18,Referral,Ward E
+21,2023-01-30,Referral,Ward A
+22,2023-01-20,Referral,Ward C
+23,2023-01-16,Referral,Ward A
+24,2023-01-04,Referral,Ward C
+25,2023-01-29,Referral,Ward C
+26,2023-01-08,Zalo,Ward E
+27,2023-01-31,Zalo,Ward A
+28,2023-01-03,Zalo,Ward D
+29,2023-01-27,Zalo,Ward A
+30,2023-01-25,Zalo,Ward E
+31,2023-01-05,Website,Ward D
+32,2023-01-31,Website,Ward E
+33,2023-01-06,Website,Ward C
+34,2023-01-20,Walk-in,Ward D
+35,2023-01-31,Walk-in,Ward B
+36,2023-01-30,Walk-in,Ward E
+37,2023-01-25,Walk-in,Ward B
+38,2023-01-23,Walk-in,Ward C
+39,2023-01-13,Walk-in,Ward C
+40,2023-01-15,Walk-in,Ward E
+41,2023-02-08,Facebook Ads,Ward B
+42,2023-02-03,Facebook Ads,Ward C
+43,2023-02-01,Facebook Ads,Ward E
+44,2023-02-18,Facebook Ads,Ward B
+45,2023-02-19,Facebook Ads,Ward B
+46,2023-02-23,Google Ads,Ward A
+47,2023-02-08,Google Ads,Ward A
+48,2023-02-28,Referral,Ward C
+49,2023-02-03,Referral,Ward E
+50,2023-02-08,Referral,Ward C
+51,2023-02-22,Referral,Ward D
+52,2023-02-07,Referral,Ward E
+53,2023-02-05,Referral,Ward E
+54,2023-02-08,Zalo,Ward D
+55,2023-02-26,Zalo,Ward D
+56,2023-02-07,Zalo,Ward A
+57,2023-02-14,Website,Ward C
+58,2023-02-15,Walk-in,Ward A
+59,2023-02-22,Walk-in,Ward A
+60,2023-02-02,Walk-in,Ward D
+61,2023-03-26,Facebook Ads,Ward A
+62,2023-03-08,Facebook Ads,Ward B
+63,2023-03-07,Facebook Ads,Ward E
+64,2023-03-15,Facebook Ads,Ward B
+65,2023-03-14,Facebook Ads,Ward B
+66,2023-03-09,Facebook Ads,Ward D
+67,2023-03-08,Facebook Ads,Ward A
+68,2023-03-15,Facebook Ads,Ward E
+69,2023-03-04,Facebook Ads,Ward A
+70,2023-03-21,Facebook Ads,Ward E
+71,2023-03-27,Facebook Ads,Ward A
+72,2023-03-03,Facebook Ads,Ward B
+73,2023-03-16,Google Ads,Ward D
+74,2023-03-07,Google Ads,Ward D
+75,2023-03-29,Google Ads,Ward A
+76,2023-03-06,Google Ads,Ward D
+77,2023-03-01,Google Ads,Ward D
+78,2023-03-09,Google Ads,Ward D
+79,2023-03-23,Referral,Ward E
+80,2023-03-22,Referral,Ward D
+81,2023-03-05,Referral,Ward B
+82,2023-03-10,Referral,Ward B
+83,2023-03-31,Referral,Ward A
+84,2023-03-19,Referral,Ward E
+85,2023-03-02,Referral,Ward C
+86,2023-03-02,Referral,Ward A
+87,2023-03-19,Referral,Ward D
+88,2023-03-17,Referral,Ward E
+89,2023-03-06,Referral,Ward A
+90,2023-03-03,Zalo,Ward B
+91,2023-03-03,Zalo,Ward E
+92,2023-03-03,Zalo,Ward B
+93,2023-03-13,Zalo,Ward A
+94,2023-03-31,Zalo,Ward E
+95,2023-03-08,Zalo,Ward E
+96,2023-03-20,Website,Ward A
+97,2023-03-14,Website,Ward E
+98,2023-03-19,Website,Ward E
+99,2023-03-09,Walk-in,Ward B
+100,2023-03-22,Walk-in,Ward C
+101,2023-03-08,Walk-in,Ward C
+102,2023-03-13,Walk-in,Ward B
+103,2023-03-22,Walk-in,Ward C
+104,2023-03-15,Walk-in,Ward C
+105,2023-03-30,Walk-in,Ward A
+106,2023-03-01,Walk-in,Ward D
+107,2023-04-19,Facebook Ads,Ward A
+108,2023-04-03,Facebook Ads,Ward E
+109,2023-04-07,Facebook Ads,Ward E
+110,2023-04-09,Facebook Ads,Ward B
+111,2023-04-30,Facebook Ads,Ward C
+112,2023-04-29,Facebook Ads,Ward A
+113,2023-04-29,Facebook Ads,Ward B
+114,2023-04-12,Facebook Ads,Ward C
+115,2023-04-06,Facebook Ads,Ward D
+116,2023-04-27,Facebook Ads,Ward E
+117,2023-04-23,Facebook Ads,Ward C
+118,2023-04-20,Facebook Ads,Ward E
+119,2023-04-01,Facebook Ads,Ward E
+120,2023-04-22,Google Ads,Ward A
+121,2023-04-29,Google Ads,Ward B
+122,2023-04-09,Google Ads,Ward A
+123,2023-04-29,Google Ads,Ward A
+124,2023-04-24,Google Ads,Ward E
+125,2023-04-05,Google Ads,Ward C
+126,2023-04-07,Referral,Ward C
+127,2023-04-07,Referral,Ward C
+128,2023-04-17,Referral,Ward D
+129,2023-04-09,Referral,Ward A
+130,2023-04-03,Referral,Ward D
+131,2023-04-27,Referral,Ward C
+132,2023-04-02,Referral,Ward A
+133,2023-04-11,Referral,Ward B
+134,2023-04-21,Referral,Ward C
+135,2023-04-06,Referral,Ward D
+136,2023-04-18,Referral,Ward D
+137,2023-04-18,Referral,Ward A
+138,2023-04-04,Referral,Ward A
+139,2023-04-29,Referral,Ward B
+140,2023-04-27,Zalo,Ward C
+141,2023-04-19,Zalo,Ward E
+142,2023-04-05,Zalo,Ward D
+143,2023-04-05,Zalo,Ward A
+144,2023-04-10,Zalo,Ward C
+145,2023-04-29,Zalo,Ward A
+146,2023-04-07,Website,Ward B
+147,2023-04-22,Website,Ward A
+148,2023-04-12,Website,Ward E
+149,2023-04-29,Website,Ward D
+150,2023-04-24,Walk-in,Ward B
+151,2023-04-30,Walk-in,Ward B
+152,2023-04-28,Walk-in,Ward B
+153,2023-04-26,Walk-in,Ward B
+154,2023-04-29,Walk-in,Ward D
+155,2023-04-01,Walk-in,Ward B
+156,2023-04-24,Walk-in,Ward C
+157,2023-04-26,Walk-in,Ward D
+158,2023-05-28,Facebook Ads,Ward B
+159,2023-05-09,Facebook Ads,Ward B
+160,2023-05-26,Facebook Ads,Ward A
+161,2023-05-13,Facebook Ads,Ward A
+162,2023-05-28,Facebook Ads,Ward D
+163,2023-05-08,Facebook Ads,Ward B
+164,2023-05-27,Facebook Ads,Ward D
+165,2023-05-12,Facebook Ads,Ward C
+166,2023-05-27,Facebook Ads,Ward B
+167,2023-05-08,Facebook Ads,Ward A
+168,2023-05-22,Facebook Ads,Ward B
+169,2023-05-13,Facebook Ads,Ward C
+170,2023-05-09,Facebook Ads,Ward A
+171,2023-05-31,Facebook Ads,Ward C
+172,2023-05-12,Facebook Ads,Ward E
+173,2023-05-13,Facebook Ads,Ward E
+174,2023-05-01,Google Ads,Ward A
+175,2023-05-29,Google Ads,Ward C
+176,2023-05-06,Google Ads,Ward E
+177,2023-05-31,Google Ads,Ward C
+178,2023-05-02,Google Ads,Ward A
+179,2023-05-20,Google Ads,Ward D
+180,2023-05-12,Google Ads,Ward C
+181,2023-05-14,Google Ads,Ward E
+182,2023-05-04,Referral,Ward D
+183,2023-05-29,Referral,Ward E
+184,2023-05-07,Referral,Ward C
+185,2023-05-02,Referral,Ward D
+186,2023-05-01,Referral,Ward E
+187,2023-05-30,Referral,Ward E
+188,2023-05-22,Referral,Ward B
+189,2023-05-12,Referral,Ward D
+190,2023-05-03,Referral,Ward C
+191,2023-05-20,Referral,Ward C
+192,2023-05-22,Referral,Ward A
+193,2023-05-24,Referral,Ward C
+194,2023-05-17,Referral,Ward C
+195,2023-05-22,Referral,Ward D
+196,2023-05-11,Referral,Ward D
+197,2023-05-23,Referral,Ward C
+198,2023-05-18,Referral,Ward B
+199,2023-05-22,Zalo,Ward D
+200,2023-05-22,Zalo,Ward B
+201,2023-05-20,Zalo,Ward E
+202,2023-05-10,Zalo,Ward D
+203,2023-05-18,Zalo,Ward A
+204,2023-05-10,Zalo,Ward C
+205,2023-05-26,Website,Ward E
+206,2023-05-20,Website,Ward C
+207,2023-05-15,Website,Ward D
+208,2023-05-15,Website,Ward B
+209,2023-05-17,Website,Ward D
+210,2023-05-31,Walk-in,Ward B
+211,2023-05-22,Walk-in,Ward A
+212,2023-05-10,Walk-in,Ward E
+213,2023-05-22,Walk-in,Ward E
+214,2023-05-11,Walk-in,Ward A
+215,2023-05-27,Walk-in,Ward B
+216,2023-05-22,Walk-in,Ward C
+217,2023-05-08,Walk-in,Ward B
+218,2023-05-05,Walk-in,Ward A
+219,2023-06-16,Facebook Ads,Ward E
+220,2023-06-28,Facebook Ads,Ward A
+221,2023-06-15,Facebook Ads,Ward D
+222,2023-06-29,Facebook Ads,Ward E
+223,2023-06-07,Facebook Ads,Ward D
+224,2023-06-16,Facebook Ads,Ward D
+225,2023-06-08,Facebook Ads,Ward B
+226,2023-06-21,Facebook Ads,Ward A
+227,2023-06-29,Facebook Ads,Ward A
+228,2023-06-08,Google Ads,Ward B
+229,2023-06-26,Google Ads,Ward E
+230,2023-06-15,Google Ads,Ward A
+231,2023-06-18,Google Ads,Ward B
+232,2023-06-30,Google Ads,Ward A
+233,2023-06-15,Google Ads,Ward B
+234,2023-06-22,Referral,Ward E
+235,2023-06-18,Referral,Ward E
+236,2023-06-11,Referral,Ward D
+237,2023-06-20,Referral,Ward E
+238,2023-06-14,Referral,Ward E
+239,2023-06-15,Referral,Ward B
+240,2023-06-24,Referral,Ward D
+241,2023-06-15,Referral,Ward C
+242,2023-06-25,Referral,Ward B
+243,2023-06-27,Referral,Ward C
+244,2023-06-25,Referral,Ward E
+245,2023-06-08,Zalo,Ward C
+246,2023-06-15,Zalo,Ward A
+247,2023-06-23,Zalo,Ward C
+248,2023-06-08,Zalo,Ward C
+249,2023-06-29,Website,Ward E
+250,2023-06-03,Website,Ward B
+251,2023-06-05,Website,Ward B
+252,2023-06-05,Walk-in,Ward B
+253,2023-06-03,Walk-in,Ward D
+254,2023-06-14,Walk-in,Ward C
+255,2023-06-18,Walk-in,Ward D
+256,2023-06-14,Walk-in,Ward A
+257,2023-07-14,Facebook Ads,Ward D
+258,2023-07-29,Facebook Ads,Ward E
+259,2023-07-31,Facebook Ads,Ward A
+260,2023-07-28,Facebook Ads,Ward E
+261,2023-07-13,Facebook Ads,Ward D
+262,2023-07-01,Facebook Ads,Ward C
+263,2023-07-10,Facebook Ads,Ward D
+264,2023-07-31,Google Ads,Ward D
+265,2023-07-18,Google Ads,Ward E
+266,2023-07-26,Google Ads,Ward E
+267,2023-07-29,Google Ads,Ward B
+268,2023-07-09,Referral,Ward D
+269,2023-07-16,Referral,Ward A
+270,2023-07-13,Referral,Ward C
+271,2023-07-22,Referral,Ward D
+272,2023-07-24,Referral,Ward B
+273,2023-07-27,Referral,Ward D
+274,2023-07-30,Referral,Ward B
+275,2023-07-18,Zalo,Ward A
+276,2023-07-30,Zalo,Ward D
+277,2023-07-19,Zalo,Ward E
+278,2023-07-22,Zalo,Ward A
+279,2023-07-14,Website,Ward B
+280,2023-07-28,Website,Ward D
+281,2023-07-09,Walk-in,Ward D
+282,2023-07-11,Walk-in,Ward B
+283,2023-07-15,Walk-in,Ward C
+284,2023-07-11,Walk-in,Ward D
+285,2023-07-09,Walk-in,Ward D
+286,2023-08-03,Facebook Ads,Ward D
+287,2023-08-01,Facebook Ads,Ward E
+288,2023-08-02,Facebook Ads,Ward C
+289,2023-08-08,Facebook Ads,Ward A
+290,2023-08-25,Facebook Ads,Ward A
+291,2023-08-25,Facebook Ads,Ward A
+292,2023-08-31,Facebook Ads,Ward B
+293,2023-08-07,Facebook Ads,Ward A
+294,2023-08-20,Facebook Ads,Ward B
+295,2023-08-08,Facebook Ads,Ward B
+296,2023-08-16,Facebook Ads,Ward A
+297,2023-08-19,Facebook Ads,Ward B
+298,2023-08-15,Facebook Ads,Ward C
+299,2023-08-25,Facebook Ads,Ward C
+300,2023-08-06,Facebook Ads,Ward E
+301,2023-08-20,Facebook Ads,Ward A
+302,2023-08-06,Google Ads,Ward C
+303,2023-08-04,Google Ads,Ward E
+304,2023-08-01,Google Ads,Ward C
+305,2023-08-19,Google Ads,Ward D
+306,2023-08-13,Google Ads,Ward B
+307,2023-08-03,Google Ads,Ward E
+308,2023-08-23,Google Ads,Ward B
+309,2023-08-04,Google Ads,Ward C
+310,2023-08-28,Google Ads,Ward E
+311,2023-08-26,Referral,Ward E
+312,2023-08-26,Referral,Ward A
+313,2023-08-12,Referral,Ward E
+314,2023-08-14,Referral,Ward C
+315,2023-08-03,Referral,Ward E
+316,2023-08-21,Referral,Ward C
+317,2023-08-01,Referral,Ward D
+318,2023-08-27,Referral,Ward D
+319,2023-08-04,Referral,Ward D
+320,2023-08-31,Referral,Ward C
+321,2023-08-21,Referral,Ward D
+322,2023-08-23,Referral,Ward B
+323,2023-08-14,Referral,Ward B
+324,2023-08-24,Referral,Ward E
+325,2023-08-31,Referral,Ward C
+326,2023-08-20,Referral,Ward E
+327,2023-08-25,Referral,Ward D
+328,2023-08-27,Zalo,Ward E
+329,2023-08-09,Zalo,Ward C
+330,2023-08-28,Zalo,Ward B
+331,2023-08-27,Zalo,Ward A
+332,2023-08-09,Zalo,Ward D
+333,2023-08-08,Zalo,Ward D
+334,2023-08-19,Zalo,Ward E
+335,2023-08-22,Zalo,Ward D
+336,2023-08-11,Zalo,Ward A
+337,2023-08-11,Website,Ward B
+338,2023-08-16,Website,Ward B
+339,2023-08-12,Website,Ward C
+340,2023-08-11,Website,Ward C
+341,2023-08-29,Website,Ward E
+342,2023-08-09,Walk-in,Ward E
+343,2023-08-01,Walk-in,Ward E
+344,2023-08-31,Walk-in,Ward B
+345,2023-08-03,Walk-in,Ward B
+346,2023-08-24,Walk-in,Ward D
+347,2023-08-16,Walk-in,Ward E
+348,2023-08-25,Walk-in,Ward B
+349,2023-08-23,Walk-in,Ward D
+350,2023-08-21,Walk-in,Ward D
+351,2023-08-15,Walk-in,Ward A
+352,2023-08-03,Walk-in,Ward C
+353,2023-08-08,Walk-in,Ward D
+354,2023-09-10,Facebook Ads,Ward E
+355,2023-09-12,Facebook Ads,Ward D
+356,2023-09-18,Facebook Ads,Ward E
+357,2023-09-12,Facebook Ads,Ward D
+358,2023-09-24,Facebook Ads,Ward E
+359,2023-09-11,Facebook Ads,Ward C
+360,2023-09-23,Facebook Ads,Ward D
+361,2023-09-09,Facebook Ads,Ward C
+362,2023-09-09,Facebook Ads,Ward B
+363,2023-09-04,Facebook Ads,Ward B
+364,2023-09-11,Facebook Ads,Ward A
+365,2023-09-24,Facebook Ads,Ward E
+366,2023-09-25,Facebook Ads,Ward B
+367,2023-09-07,Facebook Ads,Ward B
+368,2023-09-24,Facebook Ads,Ward D
+369,2023-09-09,Facebook Ads,Ward E
+370,2023-09-25,Facebook Ads,Ward E
+371,2023-09-20,Facebook Ads,Ward C
+372,2023-09-27,Google Ads,Ward B
+373,2023-09-10,Google Ads,Ward B
+374,2023-09-12,Google Ads,Ward B
+375,2023-09-10,Google Ads,Ward A
+376,2023-09-23,Google Ads,Ward E
+377,2023-09-05,Google Ads,Ward C
+378,2023-09-02,Google Ads,Ward A
+379,2023-09-18,Google Ads,Ward C
+380,2023-09-23,Google Ads,Ward B
+381,2023-09-25,Referral,Ward D
+382,2023-09-04,Referral,Ward A
+383,2023-09-19,Referral,Ward C
+384,2023-09-16,Referral,Ward D
+385,2023-09-15,Referral,Ward C
+386,2023-09-06,Referral,Ward A
+387,2023-09-09,Referral,Ward D
+388,2023-09-04,Referral,Ward A
+389,2023-09-13,Referral,Ward D
+390,2023-09-03,Referral,Ward E
+391,2023-09-21,Referral,Ward A
+392,2023-09-05,Referral,Ward B
+393,2023-09-26,Referral,Ward E
+394,2023-09-10,Referral,Ward A
+395,2023-09-08,Referral,Ward A
+396,2023-09-14,Zalo,Ward E
+397,2023-09-20,Zalo,Ward E
+398,2023-09-08,Zalo,Ward E
+399,2023-09-13,Zalo,Ward D
+400,2023-09-30,Zalo,Ward D
+401,2023-09-10,Zalo,Ward E
+402,2023-09-14,Zalo,Ward C
+403,2023-09-19,Zalo,Ward E
+404,2023-09-24,Website,Ward A
+405,2023-09-25,Website,Ward B
+406,2023-09-21,Website,Ward B
+407,2023-09-09,Website,Ward A
+408,2023-09-06,Website,Ward B
+409,2023-09-03,Walk-in,Ward B
+410,2023-09-01,Walk-in,Ward D
+411,2023-09-15,Walk-in,Ward E
+412,2023-09-16,Walk-in,Ward C
+413,2023-09-02,Walk-in,Ward B
+414,2023-09-10,Walk-in,Ward C
+415,2023-09-23,Walk-in,Ward D
+416,2023-09-03,Walk-in,Ward B
+417,2023-09-30,Walk-in,Ward C
+418,2023-09-26,Walk-in,Ward E
+419,2023-10-30,Facebook Ads,Ward B
+420,2023-10-14,Facebook Ads,Ward A
+421,2023-10-18,Facebook Ads,Ward B
+422,2023-10-21,Facebook Ads,Ward B
+423,2023-10-30,Facebook Ads,Ward C
+424,2023-10-27,Facebook Ads,Ward B
+425,2023-10-03,Facebook Ads,Ward A
+426,2023-10-06,Facebook Ads,Ward C
+427,2023-10-20,Facebook Ads,Ward E
+428,2023-10-30,Facebook Ads,Ward C
+429,2023-10-15,Facebook Ads,Ward A
+430,2023-10-15,Facebook Ads,Ward C
+431,2023-10-23,Facebook Ads,Ward D
+432,2023-10-31,Facebook Ads,Ward C
+433,2023-10-17,Facebook Ads,Ward E
+434,2023-10-16,Facebook Ads,Ward D
+435,2023-10-02,Google Ads,Ward D
+436,2023-10-24,Google Ads,Ward C
+437,2023-10-20,Google Ads,Ward C
+438,2023-10-01,Google Ads,Ward A
+439,2023-10-08,Google Ads,Ward E
+440,2023-10-19,Google Ads,Ward A
+441,2023-10-25,Google Ads,Ward C
+442,2023-10-19,Google Ads,Ward A
+443,2023-10-06,Referral,Ward D
+444,2023-10-17,Referral,Ward D
+445,2023-10-30,Referral,Ward C
+446,2023-10-06,Referral,Ward E
+447,2023-10-14,Referral,Ward D
+448,2023-10-03,Referral,Ward D
+449,2023-10-12,Referral,Ward D
+450,2023-10-11,Referral,Ward C
+451,2023-10-22,Referral,Ward A
+452,2023-10-28,Referral,Ward B
+453,2023-10-11,Referral,Ward D
+454,2023-10-23,Referral,Ward D
+455,2023-10-10,Referral,Ward D
+456,2023-10-18,Zalo,Ward A
+457,2023-10-15,Zalo,Ward A
+458,2023-10-11,Zalo,Ward C
+459,2023-10-11,Zalo,Ward A
+460,2023-10-25,Zalo,Ward D
+461,2023-10-28,Zalo,Ward E
+462,2023-10-01,Website,Ward E
+463,2023-10-15,Website,Ward D
+464,2023-10-02,Website,Ward B
+465,2023-10-17,Website,Ward C
+466,2023-10-16,Walk-in,Ward D
+467,2023-10-25,Walk-in,Ward A
+468,2023-10-07,Walk-in,Ward C
+469,2023-10-18,Walk-in,Ward B
+470,2023-10-30,Walk-in,Ward C
+471,2023-10-15,Walk-in,Ward D
+472,2023-10-04,Walk-in,Ward A
+473,2023-10-21,Walk-in,Ward E
+474,2023-11-23,Facebook Ads,Ward B
+475,2023-11-10,Facebook Ads,Ward E
+476,2023-11-01,Facebook Ads,Ward E
+477,2023-11-14,Facebook Ads,Ward A
+478,2023-11-08,Facebook Ads,Ward A
+479,2023-11-15,Facebook Ads,Ward A
+480,2023-11-21,Facebook Ads,Ward B
+481,2023-11-16,Facebook Ads,Ward C
+482,2023-11-17,Facebook Ads,Ward C
+483,2023-11-14,Facebook Ads,Ward D
+484,2023-11-16,Facebook Ads,Ward B
+485,2023-11-15,Facebook Ads,Ward E
+486,2023-11-05,Facebook Ads,Ward D
+487,2023-11-07,Facebook Ads,Ward E
+488,2023-11-29,Google Ads,Ward B
+489,2023-11-28,Google Ads,Ward A
+490,2023-11-09,Google Ads,Ward D
+491,2023-11-11,Google Ads,Ward E
+492,2023-11-09,Google Ads,Ward A
+493,2023-11-10,Google Ads,Ward C
+494,2023-11-27,Google Ads,Ward E
+495,2023-11-22,Referral,Ward D
+496,2023-11-28,Referral,Ward B
+497,2023-11-15,Referral,Ward E
+498,2023-11-16,Referral,Ward C
+499,2023-11-11,Referral,Ward E
+500,2023-11-25,Referral,Ward E
+501,2023-11-13,Referral,Ward D
+502,2023-11-30,Referral,Ward C
+503,2023-11-28,Referral,Ward B
+504,2023-11-23,Referral,Ward B
+505,2023-11-19,Referral,Ward D
+506,2023-11-25,Zalo,Ward D
+507,2023-11-02,Zalo,Ward C
+508,2023-11-24,Zalo,Ward D
+509,2023-11-23,Zalo,Ward D
+510,2023-11-13,Zalo,Ward B
+511,2023-11-02,Website,Ward B
+512,2023-11-17,Website,Ward E
+513,2023-11-11,Website,Ward A
+514,2023-11-28,Website,Ward D
+515,2023-11-30,Walk-in,Ward D
+516,2023-11-01,Walk-in,Ward B
+517,2023-11-14,Walk-in,Ward B
+518,2023-11-03,Walk-in,Ward D
+519,2023-11-26,Walk-in,Ward C
+520,2023-11-11,Walk-in,Ward E
+521,2023-11-23,Walk-in,Ward D
+522,2023-11-21,Walk-in,Ward A
+523,2023-12-28,Facebook Ads,Ward E
+524,2023-12-13,Facebook Ads,Ward C
+525,2023-12-21,Facebook Ads,Ward D
+526,2023-12-28,Facebook Ads,Ward E
+527,2023-12-02,Facebook Ads,Ward E
+528,2023-12-03,Facebook Ads,Ward B
+529,2023-12-21,Facebook Ads,Ward C
+530,2023-12-08,Facebook Ads,Ward A
+531,2023-12-14,Facebook Ads,Ward A
+532,2023-12-25,Facebook Ads,Ward A
+533,2023-12-15,Facebook Ads,Ward B
+534,2023-12-23,Facebook Ads,Ward C
+535,2023-12-29,Facebook Ads,Ward A
+536,2023-12-02,Facebook Ads,Ward C
+537,2023-12-26,Facebook Ads,Ward A
+538,2023-12-12,Google Ads,Ward D
+539,2023-12-05,Google Ads,Ward B
+540,2023-12-17,Google Ads,Ward D
+541,2023-12-19,Google Ads,Ward B
+542,2023-12-06,Google Ads,Ward B
+543,2023-12-03,Google Ads,Ward E
+544,2023-12-28,Google Ads,Ward D
+545,2023-12-20,Google Ads,Ward B
+546,2023-12-19,Referral,Ward B
+547,2023-12-08,Referral,Ward D
+548,2023-12-21,Referral,Ward C
+549,2023-12-15,Referral,Ward C
+550,2023-12-22,Referral,Ward A
+551,2023-12-29,Referral,Ward D
+552,2023-12-29,Referral,Ward C
+553,2023-12-22,Referral,Ward E
+554,2023-12-06,Referral,Ward A
+555,2023-12-15,Referral,Ward C
+556,2023-12-19,Referral,Ward C
+557,2023-12-21,Referral,Ward D
+558,2023-12-23,Referral,Ward C
+559,2023-12-15,Referral,Ward C
+560,2023-12-07,Referral,Ward D
+561,2023-12-04,Zalo,Ward B
+562,2023-12-13,Zalo,Ward E
+563,2023-12-12,Zalo,Ward E
+564,2023-12-10,Zalo,Ward C
+565,2023-12-01,Zalo,Ward D
+566,2023-12-09,Zalo,Ward A
+567,2023-12-19,Zalo,Ward A
+568,2023-12-24,Website,Ward D
+569,2023-12-27,Website,Ward C
+570,2023-12-25,Website,Ward B
+571,2023-12-20,Website,Ward C
+572,2023-12-08,Website,Ward B
+573,2023-12-22,Walk-in,Ward B
+574,2023-12-21,Walk-in,Ward A
+575,2023-12-29,Walk-in,Ward A
+576,2023-12-10,Walk-in,Ward D
+577,2023-12-02,Walk-in,Ward E
+578,2023-12-12,Walk-in,Ward B
+579,2023-12-03,Walk-in,Ward C
+580,2023-12-11,Walk-in,Ward D
+581,2023-12-06,Walk-in,Ward B
+582,2023-12-05,Walk-in,Ward E
+583,2023-12-29,Walk-in,Ward C
+584,2024-01-30,Facebook Ads,Ward C
+585,2024-01-27,Facebook Ads,Ward B
+586,2024-01-09,Facebook Ads,Ward D
+587,2024-01-31,Facebook Ads,Ward C
+588,2024-01-24,Facebook Ads,Ward C
+589,2024-01-26,Facebook Ads,Ward A
+590,2024-01-15,Facebook Ads,Ward A
+591,2024-01-05,Facebook Ads,Ward B
+592,2024-01-28,Facebook Ads,Ward D
+593,2024-01-26,Google Ads,Ward E
+594,2024-01-12,Google Ads,Ward A
+595,2024-01-26,Google Ads,Ward D
+596,2024-01-01,Google Ads,Ward C
+597,2024-01-18,Google Ads,Ward A
+598,2024-01-15,Google Ads,Ward C
+599,2024-01-22,Google Ads,Ward C
+600,2024-01-27,Referral,Ward C
+601,2024-01-04,Referral,Ward B
+602,2024-01-16,Referral,Ward A
+603,2024-01-20,Referral,Ward E
+604,2024-01-11,Referral,Ward E
+605,2024-01-08,Referral,Ward A
+606,2024-01-21,Referral,Ward D
+607,2024-01-30,Referral,Ward C
+608,2024-01-21,Referral,Ward D
+609,2024-01-04,Referral,Ward B
+610,2024-01-02,Zalo,Ward C
+611,2024-01-16,Zalo,Ward A
+612,2024-01-04,Zalo,Ward B
+613,2024-01-29,Zalo,Ward E
+614,2024-01-15,Website,Ward C
+615,2024-01-22,Website,Ward E
+616,2024-01-24,Walk-in,Ward B
+617,2024-01-29,Walk-in,Ward D
+618,2024-01-21,Walk-in,Ward A
+619,2024-01-27,Walk-in,Ward D
+620,2024-01-20,Walk-in,Ward D
