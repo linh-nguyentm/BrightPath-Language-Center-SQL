@@ -50,7 +50,10 @@ purpose, so the SQL analysis has something genuine to surface:
 ## SQL
 
 Six independent, commented queries in `sql/`, each answering one business
-question:
+question. `sql/mysql/` holds the same six questions rewritten for MySQL 5.7
+(no `strftime()`, no `WITH`/CTEs, no `NULLS LAST` -- all added in later
+MySQL/SQLite versions), for practicing in MySQL Workbench against the local
+server started by `start_mysql.sh`.
 
 | File | Question |
 |---|---|
