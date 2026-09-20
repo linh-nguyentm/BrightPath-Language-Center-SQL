@@ -6,11 +6,19 @@ star-schema export ready to load into Power BI._
 
 ## Headlines
 
-- **13-month revenue:** 2,538M VND against 945M VND in cost (62.8% margin).
-- **Best-ROI channel:** Website returns 94.1 VND of revenue per VND spent (CAC 42,065 VND/student, 36% lead-to-student rate).
+- **13-month revenue:** 2,538M VND against 945M VND in cost (62.8% blended margin). Best month: 2023-05 (75.6% margin). Worst month: 2023-02 (50.7% margin).
+- **Growth is choppy, not steady:** revenue swung from -31% (2023-07) to +71% (2023-05) month-over-month -- a cohort-batch business, not a smooth-growth one.
+- **Best-ROI paid channel:** Website returns 94.1 VND per VND spent (CAC 42,065 VND/student); the weakest paid channel, Google Ads, returns only 22.2.
+- **Free channels outperform every paid one on conversion:** Walk-in converts 60% of leads at zero direct spend.
 - **Highest-revenue course:** English 1-on-1 (522.0M VND, 87 enrollments).
-- **Where students leak:** Beginner-level courses have a 21.3% dropout rate, dropping out around week 5.3 on average.
+- **Where students leak, by course:** Beginner-level courses have a 21.3% dropout rate (vs. 7.8% for Advanced), dropping out around week 5.3 on average.
+- **Where students leak, by channel:** students acquired via Zalo drop out at 15.9%, versus 9.6% for Walk-in -- acquisition channel predicts commitment, not just cost.
+- **Revenue is broad-based, not concentrated:** it takes 68% of students (419 of 614) to reach 80% of total revenue -- close to what a perfectly even split would take, so no small group of students is carrying the business.
 
-## Recommendation
+## Recommendations
 
-Shift incremental marketing budget toward Website and away from the lowest revenue-per-VND channel; front-load teacher check-ins in the first two weeks of Beginner-level courses, where the dropout curve is steepest.
+1. **Reallocate marketing budget toward Website** and away from Google Ads; the gap in revenue-per-VND-spent (94.1 vs. 22.2) is too large to ignore for the next budgeting cycle.
+2. **Build a formal referral incentive** -- referred and walk-in students already convert best for free; a small reward for existing students who refer a friend would scale a channel that already works, rather than pushing more spend into a weaker paid one.
+3. **Front-load retention effort in Beginner-level courses**, concentrated in the first 5 weeks where the dropout curve is steepest -- a check-in call or extra practice session at week 2-3 costs far less than replacing a lost student.
+4. **Treat Zalo-acquired students as a higher-touch segment**: they convert acceptably but drop out more, so their onboarding may need to set clearer expectations up front about course pacing and commitment.
+5. **Cashflow risk from losing any single student is low** -- revenue is spread broadly across the base rather than resting on a few big spenders, so budgeting can reasonably assume a stable per-student average rather than building in a buffer for high-value churn.

@@ -122,6 +122,13 @@ server started by `start_mysql.sh`.
 | `04_dropout_by_level.sql` | Which course level leaks the most students, and when? |
 | `05_enrollment_trend.sql` | New-student trend by month and channel, for the marketing calendar. |
 | `06_cost_structure.sql` | How the cost mix (rent, salaries, marketing, teacher fees...) shifted over the year. |
+| `07_dropout_by_channel.sql` | Does the acquisition channel predict how likely a student is to drop out? |
+| `08_revenue_concentration.sql` | How much does the business depend on a small group of high-paying students? |
+
+Also in `sql/mysql/`: `00_tutorial_steps_1_to_12.sql`, a consolidated,
+step-by-step walkthrough (data-quality checks first, then the eight
+business questions) written while learning to run these queries in MySQL
+Workbench against a real client instead of just SQLite.
 
 ## Reproduce it
 
