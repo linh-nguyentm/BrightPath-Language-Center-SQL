@@ -6,6 +6,10 @@
 # Usage:
 #   ./start_mysql.sh          start the server (no-op if already running)
 #   ./start_mysql.sh stop     stop the server
+#
+# Passwords are never stored in this file. Set them in your shell first:
+#   export BRIGHTPATH_MYSQL_PASSWORD='...'        # brightpath_app user
+#   export BRIGHTPATH_MYSQL_ROOT_PASSWORD='...'   # root, needed for "stop"
 
 set -euo pipefail
 
@@ -21,7 +25,8 @@ MYSQLADMIN=/opt/anaconda3/bin/mysqladmin
 if [[ "${1:-}" == "stop" ]]; then
     if [[ -f "$PIDFILE" ]]; then
         echo "Stopping MySQL (pid $(cat "$PIDFILE"))..."
-        "$MYSQLADMIN" --socket="$SOCKET" -u root -p'BrightPath2026!' shutdown
+        "$MYSQLADMIN" --socket="$SOCKET" -u root \
+            -p"${BRIGHTPATH_MYSQL_ROOT_PASSWORD:?Set BRIGHTPATH_MYSQL_ROOT_PASSWORD first}" shutdown
     else
         echo "No pidfile found -- server is probably not running."
     fi
@@ -39,6 +44,7 @@ nohup "$MYSQLD" \
     --basedir=/opt/anaconda3 \
     --socket="$SOCKET" \
     --port="$PORT" \
+    --bind-address=127.0.0.1 \
     --pid-file="$PIDFILE" \
     > "$LOGFILE" 2>&1 &
 disown
@@ -49,7 +55,7 @@ for i in $(seq 1 20); do
         echo
         echo "Connect with:"
         echo "  Host: 127.0.0.1   Port: $PORT"
-        echo "  User: brightpath_app   Password: BrightPath2026!   Schema: brightpath"
+        echo '  User: brightpath_app   Password: $BRIGHTPATH_MYSQL_PASSWORD   Schema: brightpath'
         exit 0
     fi
     sleep 0.5

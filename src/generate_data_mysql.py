@@ -5,12 +5,12 @@ database, using the exact same rows as generate_data.py's SQLite version.
 Usage:
     python src/generate_data_mysql.py
 
-Reads connection settings from environment variables (with sane local
-defaults so it "just works" against a local dev server):
+Reads connection settings from environment variables (with local defaults
+for everything except the password, which is never stored in the code):
     BRIGHTPATH_MYSQL_HOST     default: 127.0.0.1
     BRIGHTPATH_MYSQL_PORT     default: 3307
     BRIGHTPATH_MYSQL_USER     default: brightpath_app
-    BRIGHTPATH_MYSQL_PASSWORD default: BrightPath2026!
+    BRIGHTPATH_MYSQL_PASSWORD required
     BRIGHTPATH_MYSQL_DB       default: brightpath
 """
 
@@ -84,11 +84,14 @@ CREATE TABLE expenses (
 
 
 def connect():
+    password = os.environ.get("BRIGHTPATH_MYSQL_PASSWORD")
+    if not password:
+        raise SystemExit("Set BRIGHTPATH_MYSQL_PASSWORD before running this script.")
     return pymysql.connect(
         host=os.environ.get("BRIGHTPATH_MYSQL_HOST", "127.0.0.1"),
         port=int(os.environ.get("BRIGHTPATH_MYSQL_PORT", "3307")),
         user=os.environ.get("BRIGHTPATH_MYSQL_USER", "brightpath_app"),
-        password=os.environ.get("BRIGHTPATH_MYSQL_PASSWORD", "BrightPath2026!"),
+        password=password,
         database=os.environ.get("BRIGHTPATH_MYSQL_DB", "brightpath"),
         autocommit=False,
     )

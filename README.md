@@ -143,6 +143,8 @@ python src/run_analysis.py      # runs sql/*.sql, writes results/ and images/
 **MySQL** (same data, for practicing with a real client like MySQL Workbench):
 
 ```bash
+export BRIGHTPATH_MYSQL_PASSWORD='...'        # password of the brightpath_app user
+export BRIGHTPATH_MYSQL_ROOT_PASSWORD='...'   # root password, used by "stop"
 ./start_mysql.sh                       # starts a local MySQL server on port 3307
 python src/generate_data_mysql.py      # loads the same rows into database `brightpath`
 ./start_mysql.sh stop                  # when done
@@ -151,7 +153,8 @@ python src/generate_data_mysql.py      # loads the same rows into database `brig
 Both loaders import the exact same row-building logic from `src/dataset.py`,
 so the SQLite and MySQL copies always hold identical data — only the
 destination differs. Connect Workbench to `127.0.0.1:3307`, user
-`brightpath_app` / password `BrightPath2026!`, schema `brightpath`.
+`brightpath_app` with the password you set in `BRIGHTPATH_MYSQL_PASSWORD`,
+schema `brightpath`. Passwords are never stored in this repository.
 
 `results/*.csv` holds each query's output; `results/powerbi_*.csv` is a flat
 export of every table (Power BI-ready); `images/` holds the charts;
